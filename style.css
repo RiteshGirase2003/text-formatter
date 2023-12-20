@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+.container{
+    width: 80%;
+    margin : 2rem auto;
+    background: #fff;
+    height: 80vh;
+    border: 2px solid rgb(108, 108, 108);
+    border-radius: 4px;
+
+}
+
+.container textarea {
+    width: 99%;
+    height: 50vh;
+    border:0;
+    outline:none;
+    border-bottom: 2px solid rgb(121, 121, 121);
+    resize: none;
+}
+
+.container .navigation-bar{
+    font-size: 4rem;
+    padding : 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.container .navigation-bar i{
+    font-size: 2rem;
+    padding: 0.2em 2em;
+
+}
+.container .navigation-bar .navigation .btn:hover,
+.container .navigation-bar .navigation .btn:hover{
+    color:rgb(106, 255, 106);
+    text-shadow: 0 0 3px green;
+    background:rgb(216, 255, 216) ;
+}
+
+.container .navigation-bar .btn:hover{
+    color:rgb(255, 16, 16);
+    text-shadow: 0 0 3px rgb(190, 0, 0);
+    background:rgb(255, 215, 215);
+}
+
+
+.container .btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    align-items: center;
+    padding : 1em 0;
+
+}
+
+.container  .btn{
+    background: #eaeaea;
+    border: 1px solid lightgray;
+    /* border-bottom : 4px solid rgb(0, 0, 0); */
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.container  .btn:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+.container .btns .wp {
+    color: 	#25D366;
+}
+
+.container .btns .tele{
+    color: #0088cc;
+}
+
+
+
